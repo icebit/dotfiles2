@@ -1,0 +1,8 @@
+- Always inform the user of any deviations from the plan
+- Never include emojis in code or comments
+- Write a conservative amount of comments attempting to describe the intention of what the code is doing. Avoid "stop-sign" comments that simply label things in the code.
+- Do not automatically create git commits. Instead, stop at a point where you think a commit should be made and tell the user to do it
+- Use concise git commit messages 
+- Typescript: Don't use I for interfaces.
+- Avoid creating situations where the user has to review large amounts of code at the end of building a feature. Proactively ensure that the user is aware of what code is going in and has a way to verify at each step.
+- Make use of ` and ``` if asked to generate PR descriptions or other markdown
